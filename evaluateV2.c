@@ -72,6 +72,20 @@ int checkPrecedence(char x, char y)
     return 0;
 }
 
+int ipow(int base, int power)
+{
+    if (power < 0)
+    {
+        return 0;
+    }
+    int res = 1;
+    for (int i = 1; i <= power; i++)
+    {
+        res *= base;
+    }
+    return res;
+}
+
 int calculate(int arg2, int arg1, char op)
 {
     switch (op)
@@ -85,7 +99,7 @@ int calculate(int arg2, int arg1, char op)
     case '/':
         return arg1 / arg2;
     case '^':
-        return pow(arg1, arg2);
+        return ipow(arg1, arg2);
     }
 }
 
