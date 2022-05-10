@@ -14,7 +14,7 @@ int line=0, digits=0,charac=0, word=0, total=0,spch=0;
  
 int main()
 {
-    yyin=fopen("ref.txt","r");
+    yyin=fopen("horny.txt","r");
     yylex();
     total=charac+digits+spch;
     printf("\n File contains ..\n");

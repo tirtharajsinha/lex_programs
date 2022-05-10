@@ -1,7 +1,9 @@
-/* this is a multiline comment for testing
-purpose */
+#include <stdio.h>
 
-int main(){
-	printf("hello world");
-	// this is a hello world program.
+void main()
+{
+    int i;
+    for (i = 1; i <= 5; printf("\n %d", i))
+        ;
+    i++;
 }

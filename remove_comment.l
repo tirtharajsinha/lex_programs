@@ -11,8 +11,8 @@
  
 int main()
 {
-    yyin=fopen("hello.c","r");
-    yyout=fopen("hello_out.c","w");
+    yyin=fopen("hornyCode.c","r");
+    yyout=fopen("hornyCode_out.c","w");
     yylex();
     
      

@@ -1,0 +1,5 @@
+Lorem Ipsum was originally taken from a Latin text by the Roman phil
+osopher Cicero. ... The word 'lorem', for example, isn't a real Latin word, it's a shortened vers
+ion of the word 'dolorem', meaning pain. This mak
+es the current dummy text impos
+sible to translate into English.
